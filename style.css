@@ -2,21 +2,22 @@ body{
     font-family: 'Roboto';
     background: #1f2937;
     color:#f9faf8;
+    margin-left:10%;
+    width: 80%;
 }
 
 .header{
-    margin-left:10%;
-    width: 80%;
-    font:24px;
+    font-size:24px;
     display:flex;
     align-items: center;
+    height:60px;
 }
 .logo{
     font-weight:bold;
     font:24px;
 }
 .header ul{
-    font:18px;
+    font-size:18px;
     color:#e5e7eb;
     list-style: none;
     display: flex;
@@ -24,7 +25,46 @@ body{
     margin-left:auto;
 }
 
+.main{
+    display:flex;
+    flex-direction: column;
+}
 
+.hero{
+    display: flex;
+    height:300px;
+    gap:30px;
+    align-items: center;
+    box-sizing:border-box;
+}
+
+.herotitle{
+    font-size:48px;
+    font-weight:900;
+    margin:0px;
+}
+.herosub{
+    margin:0px;
+    font-size:18px;
+    color:#e5e7eb;
+
+}
+.herobutton{
+    margin-top:8px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-weight: bold;
+    border-radius: 4px;
+    border:none;
+    padding:6px;
+    width:100px;
+}
+.heroimage{
+    background-color: #6d747d;
+    padding:60px;
+    text-align: center;
+    width: 60%;
+}
 
 .info, .action {
     background-color: white;
@@ -34,4 +74,11 @@ body{
 .quote{
     background-color: #e5e7eb;
     color:#1f2937;
+}
+
+.footer{
+    text-align: center;
+    height:60px;
+    display:flex;
+    justify-content: space-around;
 }
