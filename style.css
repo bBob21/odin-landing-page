@@ -46,7 +46,7 @@ body{
     margin:0px;
 }
 .herosub{
-    margin:0px;
+    margin:10px 0;
     font-size:18px;
     color:#cbcdd0;
 
@@ -57,7 +57,7 @@ body{
     color:#f9faf8;
     font-weight: bold;
     border-radius: 4px;
-    border:none;
+    border:2px solid #3882f6;
     padding:6px;
     width:100px;
 }
@@ -107,7 +107,14 @@ body{
     background-color: #e5e7eb;
     color:#1f2937;
 }
-
+.quote .resizer{
+    height:500px;
+    justify-content: center;
+    display:flex;
+    margin-left:20%;
+    flex-direction: column;
+    width:60%;
+}
 .quotetext{
     font-size:36px;
     color:#1f2937;
@@ -123,6 +130,43 @@ body{
 .action{
     background-color: #f9faf8;
     color:#1f2937;
+}
+.action .resizer{
+    height:500px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.actionbox{
+    display:flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100%;
+    height:40%;
+    justify-content:space-around;
+    align-items: center;
+}
+.actiontext{
+    color:#f9faf8;
+    font-weight:bold;
+    font-size:24px;
+    margin-bottom: 0;
+}
+.actionsub{
+    margin-top:6px;
+    color:#f9faf8;
+    font-weight:lighter;
+    font-size: 18px;
+}
+.actionbutton{
+    margin-top:8px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-weight: bold;
+    border-radius: 4px;
+    border:2px solid #f9faf8;
+    padding:6px;
+    width:100px;
 }
 
 .footer{
