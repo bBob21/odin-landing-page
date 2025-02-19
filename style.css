@@ -2,11 +2,13 @@ body{
     font-family: 'Roboto';
     background: #1f2937;
     color:#f9faf8;
+}
+.resizer{
     margin-left:10%;
     width: 80%;
 }
 
-.header{
+.header .resizer{
     font-size:24px;
     display:flex;
     align-items: center;
@@ -18,7 +20,7 @@ body{
 }
 .header ul{
     font-size:18px;
-    color:#e5e7eb;
+    color:#cbcdd0;
     list-style: none;
     display: flex;
     gap:16px;
@@ -30,9 +32,9 @@ body{
     flex-direction: column;
 }
 
-.hero{
+.hero .resizer{
     display: flex;
-    height:300px;
+    height:500px;
     gap:30px;
     align-items: center;
     box-sizing:border-box;
@@ -46,7 +48,7 @@ body{
 .herosub{
     margin:0px;
     font-size:18px;
-    color:#e5e7eb;
+    color:#cbcdd0;
 
 }
 .herobutton{
@@ -66,13 +68,48 @@ body{
     width: 60%;
 }
 
-.info, .action {
-    background-color: white;
-    color:#1f2937
+.info {
+    background-color: #f9faf8;
+    color:#1f2937;
+    height:500px;
 }
+.info .resizer{
+    padding:30px 0;
+}
+.infotext{
+    font-size:36px;
+    font-weight:900;
+    text-align: center;
+}
+.infocards{
+    display:flex;
+    justify-content:space-evenly;
+    gap:6px
+}
+.infocard{
+    width:178px;
+}
+.infoimage{
+    border:4px solid #3882f6;
+    height:170px;
+    width:170px;
+    border-radius: 8px;
+}
+.infosub{
+    font-size:18px;
+    color:#737476;
+    text-align: center;
+    margin:8px;
+}
+
 
 .quote{
     background-color: #e5e7eb;
+    color:#1f2937;
+}
+
+.action{
+    background-color: #f9faf8;
     color:#1f2937;
 }
 
