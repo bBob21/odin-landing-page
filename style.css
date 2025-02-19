@@ -2,8 +2,29 @@ body{
     font-family: 'Roboto';
     background: #1f2937;
     color:#f9faf8;
-
 }
+
+.header{
+    margin-left:10%;
+    width: 80%;
+    font:24px;
+    display:flex;
+    align-items: center;
+}
+.logo{
+    font-weight:bold;
+    font:24px;
+}
+.header ul{
+    font:18px;
+    color:#e5e7eb;
+    list-style: none;
+    display: flex;
+    gap:16px;
+    margin-left:auto;
+}
+
+
 
 .info, .action {
     background-color: white;
