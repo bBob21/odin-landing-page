@@ -1,0 +1,16 @@
+body{
+    font-family: 'Roboto';
+    background: #1f2937;
+    color:#f9faf8;
+
+}
+
+.info, .action {
+    background-color: white;
+    color:#1f2937
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color:#1f2937;
+}
